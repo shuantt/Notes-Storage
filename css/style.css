@@ -1,0 +1,44 @@
+/* 全局樣式 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 置中容器 */
+.container {
+    max-width: 1280px;
+    margin: 0 auto; /* 使容器水平置中 */
+    padding: 20px; /* 可根據需要調整內邊距 */
+}
+
+/* 標題樣式 */
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+/* 一般文字樣式 */
+p {
+    font-size: 14px;
+    line-height: 1.5; /* 提高可讀性 */
+}
+
+/* 圖片樣式 */
+img {
+    display: block; /* 使圖片為區塊元素，能夠置中 */
+    margin: 0 auto; /* 圖片置中 */
+    max-width: 100%; /* 最大寬度100%，確保響應式 */
+    height: auto; /* 維持原比例 */
+}
